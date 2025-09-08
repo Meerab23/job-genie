@@ -1,0 +1,149 @@
+#headerdiv
+{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 96.5vw;   
+    padding:10px;
+    box-shadow: 4px 0px 8px rgba(0,0,0,0.2);
+
+}
+#firstdiv
+{
+    background-color: #fbe9fc;
+}
+#icon
+{
+    padding-left: 5px;
+    text-align: right;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    background: linear-gradient(to right, #e811a7, #92049c);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;
+}
+#search
+{
+    width: 20vw;
+    padding:10px 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+
+}
+
+a
+{
+    text-decoration: none;
+    color: rgb(90, 89, 89);
+    padding-left: 30px;
+}
+.emoji
+{
+    color: #92049c;
+}
+#firstdiv
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, #fdedf8, #ffffff);
+   opacity: 0.9;
+}
+h1
+{
+
+    background: linear-gradient(45deg,  #92049c,#e811a7);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+}
+#toppara{
+    font-size: large;
+    width: 47vw;
+    text-align: center;
+}
+button
+{
+   padding: 10px;
+   border: 1px solid rgb(176, 170, 170);
+   border-radius: 5px;
+   margin-bottom: 20px;
+   padding-left: 20px;
+   padding-right: 20px;
+   margin-left: 10px;
+}
+button:active
+{
+    border: 3px solid black;
+}
+#btns
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    margin-bottom: 90px;
+}
+.colorbtn
+{
+    background: linear-gradient(45deg,  #ba52be,#fa50ae,rgb(237, 83, 83));
+    color: white;
+}
+#seconddiv
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h2
+{
+    background: linear-gradient(to right,  #92049c,#e811a7);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#boxesdiv
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.boxes
+{
+    border: 1px solid rgb(193, 192, 192);
+    box-shadow: 4px 0px 5px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    padding: 15px;
+    text-align: left;
+    width: 20vw;
+    padding-bottom: 30px;
+}
+h3
+{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.abox
+{
+    text-align: left;
+    color:#92049c;
+}
+span
+{
+    height: 55px;
+    width: 55px;
+}
+footer
+
+{
+    margin-top: 60px;
+    background: linear-gradient(to top, #f3e5ef, #ffffff);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
