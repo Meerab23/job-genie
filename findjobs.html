@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find jobs</title>
+    <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.6.2/dist/dotlottie-wc.js" type="module"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="jobstyling.css">
+</head>
+
+<body>
+    <header>
+        <div id="headerdiv">
+            <div id="icon">
+                Job Genie <dotlottie-wc src="https://lottie.host/7707493d-360a-48f0-acc0-840a3665f11f/CYxMbBs7tI.lottie"
+                    style="width: 30px;height: 30px" speed="1" autoplay loop></dotlottie-wc>
+            </div>
+            <div id="innerhead">
+                <input type="text" id="search" placeholder="Search for your dream job">
+                <a href="index.html">Home</a>
+                <a href="findjobs.html">Find job</a>
+                <a href="#">Smart Job search</a>
+                <a href="#">Ai assistant</a>
+                <a href="#" class="emoji"><i class="fas fa-envelope"></i> </a>
+                <a href="#" class="emoji"><i class="fas fa-user-circle"></i></a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h1>Find Your Next Role</h1>
+        <p>Browse through thousands of jobs matched to your profile</p>
+        <div id="searchbar">
+            <input type="text" id="searching" placeholder="Job title, keywords or company">
+            <button id="blackbtn"><i class="fa-solid fa-magnifying-glass"></i>
+                Search</button>
+        </div>
+        <div id="dropdowns">
+            <select class="drop">
+                <option>Job Type <i class="fa-solid fa-suitcase"></i> </option>
+                <option>Full time</option>
+                <option>Part time</option>
+                <option>Contract</option>
+                <option>Remote</option>
+            </select>
+            <select class="drop">
+                <option>Experience</option>
+                <option>Entry level</option>
+                <option>Mid level</option>
+                <option>Senior level</option>
+                <option>Lead</option>
+            </select>
+            <select class="drop">
+                <option>Salary</option>
+                <option>Below 50k</option>
+                <option>Above 50k</option>
+                <option>Above 1lac</option>
+            </select>
+            <button id="apply">
+                Apply Filters
+            </button>
+        </div>
+        <div id="jobbox">
+            <div id="jobdiv">
+                <div>
+                    <h3>Senior FrontEnd Developer</h3>
+                    <p>TechCorp Inc.</p>
+                </div>
+                <div>
+                    <button id="detailbtn">View Details</button>
+                </div>
+            </div>
+
+            <div id="smalldesc">
+                <div>
+                    <p  class="description">React</p>
+                </div>
+                <div>
+                    <p class="description">Type Script</p>
+                </div>
+                <div>
+                    <p class="description">Remote</p>
+                </div>
+            </div>
+            <p>Join our team as a Senior Frontend Developer and help build amazing user experiences</p>
+            <div id="lastdiv">
+                <div><p class="light">Posted 2 days ago</p></div>
+                <div><p class="light"><i class="fa-solid fa-location-dot"></i> San Francisco, CA</p></div>
+            </div>
+        </div>
+
+    </main>
+</body>
+
+</html>

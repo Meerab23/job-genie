@@ -1,0 +1,179 @@
+#headerdiv
+{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 96.5vw;   
+    padding:10px;
+    box-shadow: 4px 0px 8px rgba(0,0,0,0.2);
+
+}
+#firstdiv
+{
+    background-color: #fbe9fc;
+}
+#icon
+{
+    padding-left: 5px;
+    display: flex;
+    text-align: right;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    background: linear-gradient(to right, #e811a7, #92049c);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;
+}
+#search
+{
+    width: 20vw;
+    padding:10px 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+
+}
+
+a
+{
+    text-decoration: none;
+    color: rgb(90, 89, 89);
+    padding-left: 30px;
+}
+.emoji
+{
+    color: #92049c;
+}
+main
+{
+    padding: 20px;
+}
+h1
+{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+}
+#searchbar
+{
+    display: flex;
+}
+#searching
+{
+    width: 80vw;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+#blackbtn
+{
+    padding: 10px 20px 10px 20px;
+    margin-left: 15px;
+    background-color: black;
+    color: white;
+    font-size: medium;
+    border-radius: 5px;
+}
+#blackbtn:hover
+{
+    background-color: rgb(53, 53, 53);
+}
+#blackbtn:active
+{
+    transform: translateY(-2px) scale(0.98);
+}
+#dropdowns
+{
+    margin-top: 20px;
+}
+.drop
+{
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+.drop:hover
+{
+    border: 1px solid rgb(120, 66, 246);
+    color: rgb(120, 66, 246);
+}
+#apply
+{
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-left: 20px;
+    background-color: rgb(120, 66, 246);
+    color: white;
+    font-size: medium;
+}
+#apply:hover
+{
+    background-color: rgb(103, 42, 246);
+}
+#apply:active
+{
+    transform: translateY(2px) scale(0.98);
+}
+#jobbox
+{
+    margin-top: 40px;
+    padding: 10px;
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 5px;
+    box-shadow: 1px -1px 8px rgb(172, 171, 171,0.25);
+}
+#jobbox:hover
+{
+    transform: translateY(-2px) scale(1.02);
+    transition: 0.8s ease;
+    box-shadow: 1px -1px 8px rgb(172, 171, 171,0.25);
+}
+#jobbox:hover h3 {
+    color:rgb(120, 66, 246);
+    transition: color 0.3s ease;
+}
+#jobdiv
+{
+    
+    display: flex;
+    align-items:first baseline;
+    justify-content: space-between;
+    
+}
+#detailbtn
+{
+    padding: 10px;
+    color: black;
+   border: 1px solid rgb(211, 211, 211);
+   background-color: white;
+   border-radius: 5px;
+   margin-right: 10px;
+}
+#detailbtn:hover{
+    border: 1px solid rgb(120, 66, 246);
+    color: rgb(120, 66, 246);
+}
+#detailbtn:active
+{
+    background-color: rgb(203, 200, 200);
+}
+#smalldesc
+{
+    display: flex;
+}
+.description
+{
+    color: rgb(120, 66, 246);
+    border: 0.8px solid rgb(228, 218, 251);
+    border-radius: 20px;
+    padding: 5px ;
+    margin-left: 10px;
+    font-size: 13px;
+    background-color: rgb(228, 218, 251);
+}
+
+#lastdiv
+{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(148, 146, 146);
+}

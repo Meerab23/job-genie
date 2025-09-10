@@ -15,9 +15,10 @@
 #icon
 {
     padding-left: 5px;
+    display: flex;
     text-align: right;
     font-family: "Inter", sans-serif;
-    font-weight: 800;
+    font-weight: 700;
     background: linear-gradient(to right, #e811a7, #92049c);
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -54,30 +55,38 @@ a
 h1
 {
 
-    background: linear-gradient(45deg,  #92049c,#e811a7);
+    background: linear-gradient(to right,  #700cb3,#e811a7,#92049c);
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 60px;
+    font-size: 70px;
+    text-align: center;
+    width: 65vw;
 }
 #toppara{
     font-size: large;
     width: 47vw;
     text-align: center;
+    color: rgb(63, 62, 62);
 }
 button
 {
-   padding: 10px;
+   padding:10px 32px;
    border: 1px solid rgb(176, 170, 170);
    border-radius: 5px;
    margin-bottom: 20px;
-   padding-left: 20px;
-   padding-right: 20px;
    margin-left: 10px;
+   font-size: 15px;
 }
-button:active
-{
-    border: 3px solid black;
-}
+
+button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.25);
+    }
+button:active {
+      background: linear-gradient(135deg, #c56efa, #405cfa);
+      transform: translateY(2px) scale(0.98);
+      box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    }
 #btns
 {
     display: flex;
@@ -122,6 +131,12 @@ h2
     width: 20vw;
     padding-bottom: 30px;
 }
+.boxes:hover {
+    transform: translateY(-2px) scale(1.05); 
+    box-shadow: 6px 6px 12px rgba(0,0,0,0.25); 
+    transition: 0.8s ease; 
+}
+
 h3
 {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
